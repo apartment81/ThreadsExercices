@@ -10,7 +10,6 @@ import static ro.mirodone.Main.EOF;
 public class Main {
 
     static final String EOF = "EOF";
-
     public static void main(String[] args) {
 
         List<String> buffer = new ArrayList<>();
