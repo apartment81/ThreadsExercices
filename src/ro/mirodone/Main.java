@@ -36,9 +36,9 @@ class MyProducer implements Runnable {
 
     public void run() {
         Random random = new Random();
-        String[] nums = {"1", "2", "3", "4", "5"};
+        String[] numbers = {"1", "2", "3", "4", "5"};
 
-        for (String num : nums) {
+        for (String num : numbers) {
             try {
                 System.out.println(color + "Adding ... " + num);
                 synchronized (buffer) {
